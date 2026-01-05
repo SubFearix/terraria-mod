@@ -51,7 +51,7 @@ namespace HEROsMod.HEROsModServices
 
 	internal class TestHotbarWindow : UIHotbar
 	{
-		public UIView buttonView;
+		public new UIView buttonView;
 		public UIImage bStampTiles;
 		public UIImage bEyeDropper;
 		public UIImage bFlipHorizontal;
@@ -116,13 +116,13 @@ namespace HEROsMod.HEROsModServices
 			this.buttonView.Width = base.Width;
 		}
 
-		public void Hide()
+		public new void Hide()
 		{
 			hidden = true;
 			arrived = false;
 		}
 
-		public void Show()
+		public new void Show()
 		{
 			arrived = false;
 			hidden = false;

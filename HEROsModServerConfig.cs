@@ -20,13 +20,10 @@ namespace HEROsMod
 		public bool DisableAchievements { get; set; }
 		*/
 
-		[Label("Freeze Non Logged In Players")]
-		[Tooltip("If true, users must log in to move around.\nLeave this false to make logging in optional.")]
+		// Labels and Tooltips are now handled in localization files (Localization/en-US.hjson)
 		[DefaultValue(false)]
 		public bool FreezeNonLoggedIn { get; set; }
 
-		[Label("Telemetry")]
-		[Tooltip("Disable this to disable update notifications and other telemetry.")]
 		[DefaultValue(true)]
 		[ReloadRequired]
 		public bool Telemetry { get; set; }

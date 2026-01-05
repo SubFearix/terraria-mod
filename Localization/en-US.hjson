@@ -1,5 +1,21 @@
 Mods: {
 	HEROsMod: {
+		Configs: {
+			HEROsModServerConfig: {
+				DisplayName: HERO's Mod Server Config
+
+				FreezeNonLoggedIn: {
+					Label: Freeze Non Logged In Players
+					Tooltip: If true, users must log in to move around.\nLeave this false to make logging in optional.
+				}
+
+				Telemetry: {
+					Label: Telemetry
+					Tooltip: Disable this to disable update notifications and other telemetry.
+				}
+			}
+		}
+
 		UpdateTModLoaderToUse:
 			'''
 
