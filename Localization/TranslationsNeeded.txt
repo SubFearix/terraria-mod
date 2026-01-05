@@ -1,0 +1,8 @@
+zh-Hans 4
+ru-RU 4
+pt-BR 205
+pl-PL 205
+it-IT 205
+fr-FR 205
+es-ES 205
+de-DE 52
