@@ -1,4 +1,3 @@
-﻿using On.Terraria.GameContent.NetModules;
 using HEROsMod.HEROsModNetwork;
 using HEROsMod.HEROsModServices;
 using HEROsMod.UIKit;
@@ -62,8 +61,8 @@ namespace HEROsMod
 			{
 				ModUtils.DebugText("Load:\n" + e.Message + "\n" + e.StackTrace + "\n");
 			}
-			// Intercept DeserializeAsServer method
-			NetTextModule.DeserializeAsServer += NetTextModule_DeserializeAsServer;
+			// TODO: MonoMod hook for chat interception not available in 1.4 without additional setup
+			// NetTextModule.DeserializeAsServer += NetTextModule_DeserializeAsServer;
 		}
 
 		internal static string HeroText(string key)
@@ -122,9 +121,10 @@ namespace HEROsMod
 			ModUtils.previousInventoryItems = null;
 			modCategories = null;
 			instance = null;
-			NetTextModule.DeserializeAsServer -= NetTextModule_DeserializeAsServer;
+			// NetTextModule.DeserializeAsServer -= NetTextModule_DeserializeAsServer;
 		}
 
+		/* TODO: MonoMod hooks require additional setup in tModLoader 1.4
 		private bool NetTextModule_DeserializeAsServer(NetTextModule.orig_DeserializeAsServer orig, Terraria.GameContent.NetModules.NetTextModule self, BinaryReader reader, int senderPlayerId)
 		{
 			long savedPosition = reader.BaseStream.Position;
@@ -137,6 +137,7 @@ namespace HEROsMod
 
 			return true;
 		}
+		*/
 
 		public override void PostSetupContent()
 		{

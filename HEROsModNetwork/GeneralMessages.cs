@@ -1,9 +1,10 @@
-﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Terraria;
+using Terraria.DataStructures;
 using Terraria.Localization;
 
 namespace HEROsMod.HEROsModNetwork
@@ -1187,7 +1188,7 @@ namespace HEROsMod.HEROsModNetwork
 					}
 				}
 				// Natural, Debug, or Custom IEntitySource?
-				NPC.NewNPC(NPC.GetSpawnSourceForNaturalSpawn(), (int)player.GameInstance.position.X, (int)player.GameInstance.position.Y, npcType);
+				NPC.NewNPC(new EntitySource_SpawnNPC(), (int)player.GameInstance.position.X, (int)player.GameInstance.position.Y, npcType);
 			}
 		}
 

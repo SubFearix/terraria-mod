@@ -1,9 +1,10 @@
-﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using Terraria;
 using Terraria.Chat;
+using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.Localization;
 
@@ -1028,7 +1029,7 @@ namespace HEROsMod.HEROsModNetwork
 					break;
 				}
 			}
-			if (!npcFound) NPC.NewNPC(NPC.GetSpawnSourceForNaturalSpawn(), (int)position.X, (int)position.Y, type);
+			if (!npcFound) NPC.NewNPC(new EntitySource_SpawnNPC(), (int)position.X, (int)position.Y, type);
 		}
 
 		public static void ResetAllPlayers()
@@ -1065,7 +1066,7 @@ namespace HEROsMod.HEROsModNetwork
 				{
 					if (k >= 0 && k < Main.maxSectionsX && l >= 0 && l < Main.maxSectionsY)
 					{
-						NetMessage.SendSection(player.Index, k, l, false);
+						NetMessage.SendSection(player.Index, k, l);
 						NetMessage.SendData(11, player.Index, -1, null, k, (float)l, (float)k, (float)l, 0);
 					}
 				}
