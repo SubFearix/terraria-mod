@@ -88,7 +88,7 @@ namespace HEROsMod.HEROsModServices
 						Player player = Main.player[Main.myPlayer];
 						if (player.chest != -1)
 						{
-							ChestUI.QuickStack(ContainerTransferContext.FromUnknown(player), false);
+							ChestUI.QuickStack();
 						}
 						else
 						{
