@@ -5,6 +5,7 @@ using System;
 using Terraria;
 using Terraria.Audio;
 using Terraria.GameContent;
+using Terraria.GameContent.UI;
 using Terraria.ID;
 using Terraria.UI;
 
@@ -88,7 +89,7 @@ namespace HEROsMod.HEROsModServices
 						Player player = Main.player[Main.myPlayer];
 						if (player.chest != -1)
 						{
-							ChestUI.QuickStack();
+							ChestUI.QuickStack(ContainerTransferContext.FromUnknown(player), false);
 						}
 						else
 						{
