@@ -1,10 +1,11 @@
-﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System;
 using Terraria;
 using Terraria.Audio;
 using Terraria.GameContent;
+using Terraria.ID;
 using Terraria.UI;
 
 namespace HEROsMod.HEROsModServices
@@ -535,7 +536,7 @@ namespace HEROsMod.HEROsModServices
 												playsound = true;
 												tempItem.stack++;
 											}
-											if (playsound) SoundEngine.PlaySound(18, -1, -1, 1);
+											if (playsound) SoundEngine.PlaySound(SoundID.MenuTick);
 											if (tempItem.stack > 0)
 												Main.mouseItem = (Item)tempItem.Clone();
 											Recipe.FindRecipes();
@@ -563,7 +564,7 @@ namespace HEROsMod.HEROsModServices
 													playsound = true;
 												}
 
-												if (playsound) SoundEngine.PlaySound(18, -1, -1, 1);
+												if (playsound) SoundEngine.PlaySound(SoundID.MenuTick);
 												if (tempItem.stack > 0)
 												{
 													for (int i = 0; i < p.inventory.Length - 9; i++)
