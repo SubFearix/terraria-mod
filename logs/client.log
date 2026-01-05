@@ -1,0 +1,168 @@
+[05:03:30.033] [Main Thread/INFO] [tML]: Starting tModLoader client 1.4.4.9+2025.11.3.0|2025.11|stable|Stable|c56cfcae3f6ff7dd925ddeac50d43d7e30b2b55b|5250714245221907945 built 01.01.2026 07:04
+[05:03:30.043] [Main Thread/INFO] [tML]: Log date: 06.01.2026
+[05:03:30.043] [Main Thread/INFO] [tML]: Running on Linux (v6.14.0.37) X64 NetCore 8.0.0
+[05:03:30.047] [Main Thread/INFO] [tML]: CPU: 4 processors. RAM: 7,1 GB
+[05:03:30.047] [Main Thread/INFO] [tML]: FrameworkDescription: .NET 8.0.0
+[05:03:30.047] [Main Thread/INFO] [tML]: Executable: /home/subfear/Terraria/Terraria/game/tModLoader/tModLoader.dll
+[05:03:30.047] [Main Thread/INFO] [tML]: Working Directory: /home/subfear/Terraria/Terraria/game/tModLoader
+[05:03:30.372] [Main Thread/INFO] [tML]: Attempt to Port from "/home/subfear/.local/share/Terraria/tModLoader" to "/home/subfear/.local/share/Terraria/tModLoader-1.4.3" aborted, "2025.11.3.0" is a newer version.
+[05:03:30.372] [Main Thread/INFO] [tML]: Saves Are Located At: /home/subfear/.local/share/Terraria/tModLoader
+[05:03:30.409] [Main Thread/INFO] [tML]: Display DPI: Diagonal DPI is 143,66042. Vertical DPI is 144,37895. Horizontal DPI is 143,43529
+[05:03:30.409] [Main Thread/INFO] [tML]: High DPI Display detected: setting FNA to highdpi mode
+[05:03:30.411] [Main Thread/DEBUG] [FNA]: Querying linked library versions...
+[05:03:30.412] [Main Thread/DEBUG] [FNA]: SDL v2.28.2
+[05:03:30.413] [Main Thread/DEBUG] [tML]: Native Resolve: FNA, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null -> FNA3D
+[05:03:30.413] [Main Thread/DEBUG] [tML]: 	attempting load /home/subfear/Terraria/Terraria/game/tModLoader/Libraries/Native/Linux/libFNA3D.so.0
+[05:03:30.416] [Main Thread/DEBUG] [tML]: 	success
+[05:03:30.416] [Main Thread/DEBUG] [FNA]: FNA3D v23.10.0
+[05:03:30.416] [Main Thread/DEBUG] [tML]: Native Resolve: FNA, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null -> FAudio
+[05:03:30.416] [Main Thread/DEBUG] [tML]: 	attempting load /home/subfear/Terraria/Terraria/game/tModLoader/Libraries/Native/Linux/libFAudio.so.0
+[05:03:30.417] [Main Thread/DEBUG] [tML]: 	success
+[05:03:30.417] [Main Thread/DEBUG] [FNA]: FAudio v22.8.0
+[05:03:30.769] [Main Thread/INFO] [tML]: Distribution Platform: GoG. Detection method: Terraria_v1.4.4.9.exe found, no steam files or directories nearby.
+[05:03:30.894] [Main Thread/INFO] [FNA]: SDL.SDL_Init(SDL.SDL_INIT_VIDEO)...
+[05:03:30.917] [Main Thread/INFO] [FNA]: Success
+[05:03:30.917] [Main Thread/INFO] [FNA]: SDL.SDL_InitSubSystem(SDL.SDL_INIT_GAMECONTROLLER)...
+[05:03:30.936] [Main Thread/INFO] [FNA]: Success
+[05:03:31.025] [Main Thread/ERROR] [tML]: Steam Game Server failed to Init. Steam Workshop downloading on GoG is unavailable. Make sure Steam is installed
+[05:03:31.029] [Main Thread/INFO] [tML]: Current 1281930 Workshop Folder Directory: steamapps/workshop
+[05:03:31.039] [Main Thread/INFO] [FNA]: SDL Video Diver: x11
+[05:03:31.039] [Main Thread/INFO] [FNA]: FNA3D Driver: OpenGL
+[05:03:31.039] [Main Thread/INFO] [FNA]: OpenGL Renderer: AMD Radeon Graphics (radeonsi, renoir, ACO, DRM 3.61, 6.14.0-37-generic)
+[05:03:31.039] [Main Thread/INFO] [FNA]: OpenGL Driver: 4.6 (Compatibility Profile) Mesa 25.0.7-0ubuntu0.24.04.2
+[05:03:31.039] [Main Thread/INFO] [FNA]: OpenGL Vendor: AMD
+[05:03:31.040] [Main Thread/INFO] [FNA]: MojoShader Profile: glsl120
+[05:03:31.045] [Main Thread/INFO] [tML]: Content folder of Terraria GOG Install Location assumed to be: /home/subfear/Terraria/Terraria/game/Content
+[05:03:31.503] [Main Thread/INFO] [tML]: Maximum Resolution is 1920 x 1200
+[05:03:31.531] [Main Thread/DEBUG] [Terraria]: Device Created, Adapter: eDP-1 15", DisplayMode: {{Width:1920 Height:1080 Format:Color}}, Profile: HiDef, Width: 1854, Height: 1011, Fullscreen: False, Display: \\.\DISPLAY1
+[05:03:31.771] [Main Thread/INFO] [FNA]: SDL Audio Driver: pulseaudio
+[05:03:33.999] [6/DEBUG] [tML]: SSDP search line separator: CRLF
+[05:03:34.101] [6/DEBUG] [tML]: Hook System.Runtime.Loader.AssemblyLoadContext::ValidateAssemblyNameWithSimpleName(Assembly, string) added by tModLoader
+[05:03:49.991] [Main Thread/INFO] [tML]: Finding Mods...
+[05:03:49.996] [Main Thread/INFO] [tML]: Finding Mods...
+[05:03:50.000] [Main Thread/INFO] [tML]: 3 most recently changed workshop mods: 
+[05:03:51.454] [.NET TP Worker/INFO] [tML]: Finding Mods...
+[05:03:51.456] [.NET TP Worker/WARN] [tML]: All remaining versions of HEROsMod would be ignored, continuing anyway so that at least one can be shown. Reason: mod is for a different Terraria version/LTS release stream
+[05:03:51.459] [.NET TP Worker/DEBUG] [tML]: Selected HEROsMod 0.3.10 for tML 0.11.8.4 from Local.
+[05:03:51.463] [.NET TP Worker/INFO] [tML]: Поиск модов...
+[05:03:51.468] [.NET TP Worker/INFO] [tML]: Построение модов...
+[05:03:51.469] [.NET TP Worker/INFO] [tML]: JITModsAsync completed in 0ms
+[05:03:51.470] [.NET TP Worker/INFO] [tML]: Добавление ресурсов: ModLoader (tModLoader) v2025.11.3.0
+[05:03:51.526] [.NET TP Worker/INFO] [tML]: Калибровка размеров...
+[05:03:51.838] [.NET TP Worker/INFO] [tML]: Настройка ресурсов: ModLoader (tModLoader) v2025.11.3.0
+[05:03:51.903] [.NET TP Worker/INFO] [tML]: Завершение настройки: ModLoader (tModLoader) v2025.11.3.0
+[05:03:51.995] [.NET TP Worker/INFO] [tML]: RAM physical: tModLoader usage: 820,3 MB, All processes usage: 7,9 GB, Available: -759,4 MB, Total Installed: 7,1 GB
+[05:03:51.995] [.NET TP Worker/INFO] [tML]: RAM virtual: tModLoader usage: 1,0 GB, All processes usage: 36,2 GB
+[05:03:51.995] [.NET TP Worker/WARN] [tML]: Total system memory usage exceeds installed physical memory, tModLoader will likely experience performance issues due to frequent page file access.
+[05:03:52.072] [.NET TP Worker/DEBUG] [tML]: GlobalItem registration stats. Count: 1, Slots per Entity: 1
+	Instanced: 1, Conditional with slot: 0, Conditional by type: 0, Applies to single type: 0
+	List Permutations: 1, Est Memory Consumption: 16 bytes
+[05:03:52.097] [.NET TP Worker/DEBUG] [tML]: GlobalNPC registration stats. Count: 2, Slots per Entity: 1
+	Instanced: 1, Conditional with slot: 0, Conditional by type: 0, Applies to single type: 0
+	List Permutations: 1, Est Memory Consumption: 16 bytes
+[05:03:52.106] [.NET TP Worker/DEBUG] [tML]: GlobalProjectile registration stats. Count: 0, Slots per Entity: 0
+	Instanced: 0, Conditional with slot: 0, Conditional by type: 0, Applies to single type: 0
+	List Permutations: 0, Est Memory Consumption: 0 bytes
+[05:03:52.201] [.NET TP Worker/INFO] [tML]: Добавление рецептов...
+[05:03:52.373] [.NET TP Worker/INFO] [tML]: Finding Mods...
+[05:03:52.373] [.NET TP Worker/INFO] [tML]: Mod Load Completed in 913ms
+[05:03:52.398] [Main Thread/DEBUG] [tML]: Web Request: https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1281930&count=1&feeds=steam_community_announcements
+[05:03:55.738] [Main Thread/DEBUG] [tML]: Process.Start (UseShellExecute = False): "which" dotnet
+[05:03:55.741] [Main Thread/DEBUG] [tML]: Process.Start (UseShellExecute = False): "/usr/bin/dotnet" --version
+[05:03:55.866] [Main Thread/DEBUG] [tML]: System dotnet install located at: /usr/bin/dotnet
+[05:03:55.866] [Main Thread/DEBUG] [tML]: Process.Start (UseShellExecute = False): "/usr/bin/dotnet" --list-sdks
+[05:03:55.868] [Main Thread/INFO] [tML]: Found list of sdks:
+8.0.122 [/usr/lib/dotnet/sdk]
+[05:03:55.868] [.NET TP Worker/INFO] [tML]: Finding Mods...
+[05:03:58.744] [.NET TP Worker/INFO] [tML]: Чтение свойств: HEROsMod
+[05:03:58.745] [.NET TP Worker/INFO] [tML]: Идёт сборка: HEROsMod
+[05:03:58.745] [.NET TP Worker/INFO] [tML]: Идёт компиляция: HEROsMod.dll
+[05:03:58.748] [.NET TP Worker/INFO] [tML]: Finding Mods...
+[05:04:00.654] [.NET TP Worker/INFO] [tML]: Компиляция мода завершена с 27 ошибками и 44 предупреждениями.
+[05:04:00.674] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: Microsoft.CodeAnalysis.CSharp, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 -> Microsoft.CodeAnalysis.CSharp.resources, Version=4.12.0.0, Culture=ru-RU, PublicKeyToken=31bf3856ad364e35
+[05:04:00.675] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsMod.cs(1,7): error CS0246: Не удалось найти тип или имя пространства имен "On" (возможно, отсутствует директива using или ссылка на сборку).
+[05:04:00.688] [.NET TP Worker/WARN] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServerConfig.cs(34,24): warning CS0672: Член "HEROsModServerConfig.AcceptClientChanges(ModConfig, int, ref string)" переопределяет устаревший член "ModConfig.AcceptClientChanges(ModConfig, int, ref string)". Добавьте к "HEROsModServerConfig.AcceptClientChanges(ModConfig, int, ref string)" атрибут Obsolete.
+[05:04:00.688] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModModPlayer.cs(54,24): error CS0115: "HEROsModModPlayer.PreHurt(bool, bool, ref int, ref int, ref bool, ref bool, ref bool, ref bool, ref PlayerDeathReason)": не найден метод, пригодный для переопределения.
+[05:04:00.690] [.NET TP Worker/WARN] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServices/TestHotbarSevice.cs(54,17): warning CS0108: "TestHotbarWindow.buttonView" скрывает наследуемый член "UIHotbar.buttonView". Если скрытие было намеренным, используйте ключевое слово new.
+[05:04:00.690] [.NET TP Worker/WARN] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServices/TestHotbarSevice.cs(119,15): warning CS0108: "TestHotbarWindow.Hide()" скрывает наследуемый член "UIHotbar.Hide()". Если скрытие было намеренным, используйте ключевое слово new.
+[05:04:00.690] [.NET TP Worker/WARN] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServices/TestHotbarSevice.cs(125,15): warning CS0108: "TestHotbarWindow.Show()" скрывает наследуемый член "UIHotbar.Show()". Если скрытие было намеренным, используйте ключевое слово new.
+[05:04:00.690] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsMod.cs(128,50): error CS0246: Не удалось найти тип или имя пространства имен "NetTextModule" (возможно, отсутствует директива using или ссылка на сборку).
+[05:04:00.690] [.NET TP Worker/WARN] [tML]: warning CS1701: При предположении, что ссылка на сборку "System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", используемая "Newtonsoft.Json", совпадает с удостоверением "System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"для "System.Runtime", возможно, потребуется задать политику среды выполнения
+[05:04:00.690] [.NET TP Worker/WARN] [tML]: warning CS1701: При предположении, что ссылка на сборку "System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", используемая "Newtonsoft.Json", совпадает с удостоверением "System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"для "System.Runtime", возможно, потребуется задать политику среды выполнения
+[05:04:00.690] [.NET TP Worker/WARN] [tML]: warning CS1701: При предположении, что ссылка на сборку "System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", используемая "Newtonsoft.Json", совпадает с удостоверением "System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"для "System.Runtime", возможно, потребуется задать политику среды выполнения
+[05:04:00.690] [.NET TP Worker/WARN] [tML]: warning CS1701: При предположении, что ссылка на сборку "System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", используемая "Newtonsoft.Json", совпадает с удостоверением "System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"для "System.Runtime", возможно, потребуется задать политику среды выполнения
+[05:04:00.690] [.NET TP Worker/WARN] [tML]: warning CS1701: При предположении, что ссылка на сборку "System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", используемая "Newtonsoft.Json", совпадает с удостоверением "System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"для "System.Runtime", возможно, потребуется задать политику среды выполнения
+[05:04:00.690] [.NET TP Worker/WARN] [tML]: warning CS1701: При предположении, что ссылка на сборку "System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", используемая "Newtonsoft.Json", совпадает с удостоверением "System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"для "System.Runtime", возможно, потребуется задать политику среды выполнения
+[05:04:00.690] [.NET TP Worker/WARN] [tML]: warning CS1701: При предположении, что ссылка на сборку "System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", используемая "Newtonsoft.Json", совпадает с удостоверением "System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"для "System.Runtime", возможно, потребуется задать политику среды выполнения
+[05:04:00.690] [.NET TP Worker/WARN] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServerConfig.cs(23,4): warning CS0618: "LabelAttribute" является устаревшим: 'Labels are now automatically localized in localization files. Use LabelKeyAttribute to customize the key or use the autogenerated translation key instead. The functionality for showing this field or property in the ModConfig UI despite using [JsonIgnore] is now done through [ShowDespiteJsonIgnoreAttribute]'
+[05:04:00.690] [.NET TP Worker/WARN] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServerConfig.cs(24,4): warning CS0618: "TooltipAttribute" является устаревшим: 'Tooltips are now automatically localized in localization files. Use TooltipKeyAttribute to customize the key or use the autogenerated translation key instead.'
+[05:04:00.690] [.NET TP Worker/WARN] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServerConfig.cs(28,4): warning CS0618: "LabelAttribute" является устаревшим: 'Labels are now automatically localized in localization files. Use LabelKeyAttribute to customize the key or use the autogenerated translation key instead. The functionality for showing this field or property in the ModConfig UI despite using [JsonIgnore] is now done through [ShowDespiteJsonIgnoreAttribute]'
+[05:04:00.690] [.NET TP Worker/WARN] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServerConfig.cs(29,4): warning CS0618: "TooltipAttribute" является устаревшим: 'Tooltips are now automatically localized in localization files. Use TooltipKeyAttribute to customize the key or use the autogenerated translation key instead.'
+[05:04:00.690] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsMod.cs(66,4): error CS0103: Имя "NetTextModule" не существует в текущем контексте.
+[05:04:00.691] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsMod.cs(125,4): error CS0103: Имя "NetTextModule" не существует в текущем контексте.
+[05:04:00.691] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/UIKit/UIComponents/Slot.cs(124,52): error CS7036: Отсутствует аргумент, соответствующий требуемому параметру "context" из "EntitySource_DebugCommand.EntitySource_DebugCommand(string)".
+[05:04:00.691] [.NET TP Worker/WARN] [tML]: warning CS1701: При предположении, что ссылка на сборку "System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", используемая "Newtonsoft.Json", совпадает с удостоверением "System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"для "System.Runtime", возможно, потребуется задать политику среды выполнения
+[05:04:00.691] [.NET TP Worker/WARN] [tML]: warning CS1701: При предположении, что ссылка на сборку "System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", используемая "Newtonsoft.Json", совпадает с удостоверением "System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"для "System.Runtime", возможно, потребуется задать политику среды выполнения
+[05:04:00.691] [.NET TP Worker/WARN] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServices/PlayerList.cs(369,4): warning CS0162: Обнаружен недостижимый код
+[05:04:00.691] [.NET TP Worker/WARN] [tML]: warning CS1701: При предположении, что ссылка на сборку "System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", используемая "Newtonsoft.Json", совпадает с удостоверением "System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"для "System.Runtime", возможно, потребуется задать политику среды выполнения
+[05:04:00.691] [.NET TP Worker/WARN] [tML]: warning CS1701: При предположении, что ссылка на сборку "System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", используемая "Newtonsoft.Json", совпадает с удостоверением "System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"для "System.Runtime", возможно, потребуется задать политику среды выполнения
+[05:04:00.691] [.NET TP Worker/WARN] [tML]: warning CS1701: При предположении, что ссылка на сборку "System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", используемая "Newtonsoft.Json", совпадает с удостоверением "System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"для "System.Runtime", возможно, потребуется задать политику среды выполнения
+[05:04:00.691] [.NET TP Worker/WARN] [tML]: warning CS1701: При предположении, что ссылка на сборку "System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", используемая "Newtonsoft.Json", совпадает с удостоверением "System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"для "System.Runtime", возможно, потребуется задать политику среды выполнения
+[05:04:00.691] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/UIKit/UIComponents/Slot.cs(205,21): error CS1501: Ни одна из перегрузок метода "PlaySound" не принимает 4 аргументов.
+[05:04:00.692] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServices/InfiniteReach.cs(133,7): error CS0200: Невозможно присвоить значение свойству или индексатору "Main.SmartCursorWanted" — доступ только для чтения.
+[05:04:00.693] [.NET TP Worker/WARN] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModNetwork/GeneralMessages.cs(157,6): warning CS0162: Обнаружен недостижимый код
+[05:04:00.693] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServices/MobSpawner.cs(805,31): error CS0117: "NPC" не содержит определение для "GetSpawnSourceForNaturalSpawn".
+[05:04:00.693] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModNetwork/GeneralMessages.cs(557,10): error CS0117: "Main" не содержит определение для "fastForwardTime".
+[05:04:00.693] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServices/PrefixEditor.cs(161,55): error CS0122: "ItemSourceID" недоступен из-за его уровня защиты.
+[05:04:00.693] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServices/PrefixEditor.cs(161,36): error CS1061: "Player" не содержит определения "GetItemSource_Misc", и не удалось найти доступный метод расширения "GetItemSource_Misc", принимающий тип "Player" в качестве первого аргумента (возможно, пропущена директива using или ссылка на сборку).
+[05:04:00.693] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServices/MobSpawner.cs(880,30): error CS0117: "NPC" не содержит определение для "GetSpawnSourceForNaturalSpawn".
+[05:04:00.693] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServices/InventoryManager.cs(90,16): error CS7036: Отсутствует аргумент, соответствующий требуемому параметру "context" из "ChestUI.QuickStack(ContainerTransferContext, bool)".
+[05:04:00.693] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServices/InventoryManager.cs(120,16): error CS1501: Ни одна из перегрузок метода "PlaySound" не принимает 4 аргументов.
+[05:04:00.694] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServices/TimeWeatherChanger.cs(250,10): error CS0117: "Main" не содержит определение для "fastForwardTime".
+[05:04:00.694] [.NET TP Worker/WARN] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServices/StatsService.cs(54,31): warning SYSLIB0014: "WebClient.WebClient()" является устаревшим: 'WebRequest, HttpWebRequest, ServicePoint, and WebClient are obsolete. Use HttpClient instead.' (https://aka.ms/dotnet-warnings/SYSLIB0014)
+[05:04:00.694] [.NET TP Worker/WARN] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServices/PSAService.cs(36,31): warning SYSLIB0014: "WebClient.WebClient()" является устаревшим: 'WebRequest, HttpWebRequest, ServicePoint, and WebClient are obsolete. Use HttpClient instead.' (https://aka.ms/dotnet-warnings/SYSLIB0014)
+[05:04:00.694] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServices/PrefixEditor.cs(249,30): error CS1061: "Item" не содержит определения "CloneWithModdedDataFrom", и не удалось найти доступный метод расширения "CloneWithModdedDataFrom", принимающий тип "Item" в качестве первого аргумента (возможно, пропущена директива using или ссылка на сборку).
+[05:04:00.694] [.NET TP Worker/WARN] [tML]: warning CS1701: При предположении, что ссылка на сборку "System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", используемая "Newtonsoft.Json", совпадает с удостоверением "System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"для "System.Runtime", возможно, потребуется задать политику среды выполнения
+[05:04:00.694] [.NET TP Worker/WARN] [tML]: warning CS1701: При предположении, что ссылка на сборку "System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", используемая "Newtonsoft.Json", совпадает с удостоверением "System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"для "System.Runtime", возможно, потребуется задать политику среды выполнения
+[05:04:00.694] [.NET TP Worker/WARN] [tML]: warning CS1701: При предположении, что ссылка на сборку "System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", используемая "Newtonsoft.Json", совпадает с удостоверением "System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"для "System.Runtime", возможно, потребуется задать политику среды выполнения
+[05:04:00.694] [.NET TP Worker/WARN] [tML]: warning CS1701: При предположении, что ссылка на сборку "System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", используемая "Newtonsoft.Json", совпадает с удостоверением "System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"для "System.Runtime", возможно, потребуется задать политику среды выполнения
+[05:04:00.694] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServices/InventoryManager.cs(158,20): error CS1501: Ни одна из перегрузок метода "PlaySound" не принимает 4 аргументов.
+[05:04:00.694] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServices/InventoryManager.cs(182,20): error CS1501: Ни одна из перегрузок метода "PlaySound" не принимает 4 аргументов.
+[05:04:00.694] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServices/InventoryManager.cs(209,20): error CS1501: Ни одна из перегрузок метода "PlaySound" не принимает 4 аргументов.
+[05:04:00.694] [.NET TP Worker/WARN] [tML]: warning CS1701: При предположении, что ссылка на сборку "System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", используемая "Newtonsoft.Json", совпадает с удостоверением "System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"для "System.Runtime", возможно, потребуется задать политику среды выполнения
+[05:04:00.694] [.NET TP Worker/WARN] [tML]: warning CS1701: При предположении, что ссылка на сборку "System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", используемая "Newtonsoft.Json", совпадает с удостоверением "System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"для "System.Runtime", возможно, потребуется задать политику среды выполнения
+[05:04:00.694] [.NET TP Worker/WARN] [tML]: warning CS1701: При предположении, что ссылка на сборку "System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", используемая "Newtonsoft.Json", совпадает с удостоверением "System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"для "System.Runtime", возможно, потребуется задать политику среды выполнения
+[05:04:00.694] [.NET TP Worker/WARN] [tML]: warning CS1701: При предположении, что ссылка на сборку "System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", используемая "Newtonsoft.Json", совпадает с удостоверением "System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"для "System.Runtime", возможно, потребуется задать политику среды выполнения
+[05:04:00.695] [.NET TP Worker/WARN] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModNetwork/Network.cs(960,37): warning CS0168: Переменная "e" объявлена, но ни разу не использована.
+[05:04:00.695] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModNetwork/Network.cs(1031,34): error CS0117: "NPC" не содержит определение для "GetSpawnSourceForNaturalSpawn".
+[05:04:00.695] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModNetwork/Network.cs(1068,18): error CS1501: Ни одна из перегрузок метода "SendSection" не принимает 4 аргументов.
+[05:04:00.695] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServices/InventoryManager.cs(425,23): error CS1501: Ни одна из перегрузок метода "PlaySound" не принимает 4 аргументов.
+[05:04:00.695] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServices/InventoryManager.cs(468,24): error CS1501: Ни одна из перегрузок метода "PlaySound" не принимает 4 аргументов.
+[05:04:00.695] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServices/InventoryManager.cs(538,39): error CS1501: Ни одна из перегрузок метода "PlaySound" не принимает 4 аргументов.
+[05:04:00.695] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServices/InventoryManager.cs(566,40): error CS1501: Ни одна из перегрузок метода "PlaySound" не принимает 4 аргументов.
+[05:04:00.695] [.NET TP Worker/ERROR] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModNetwork/GeneralMessages.cs(1190,20): error CS0117: "NPC" не содержит определение для "GetSpawnSourceForNaturalSpawn".
+[05:04:00.695] [.NET TP Worker/WARN] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/ModUtils.cs(45,28): warning CS0169: Поле "ModUtils._logoTexture2" никогда не используется.
+[05:04:00.695] [.NET TP Worker/WARN] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/ModUtils.cs(46,28): warning CS0169: Поле "ModUtils._testTubeTexture" никогда не используется.
+[05:04:00.695] [.NET TP Worker/WARN] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/UIKit/UIComponents/ItemBrowser.cs(25,16): warning CS0169: Поле "ItemBrowser._trashCan" никогда не используется.
+[05:04:00.695] [.NET TP Worker/WARN] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/ModUtils.cs(44,28): warning CS0169: Поле "ModUtils._logoTexture" никогда не используется.
+[05:04:00.695] [.NET TP Worker/WARN] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServices/InventoryManager.cs(31,24): warning CS0169: Поле "InventoryManager._itemSortArray" никогда не используется.
+[05:04:00.695] [.NET TP Worker/WARN] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServices/InventoryManager.cs(14,24): warning CS0414: Полю "InventoryManager.scale" присвоено значение, но оно ни разу не использовано.
+[05:04:00.695] [.NET TP Worker/WARN] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModServices/InventoryManager.cs(32,23): warning CS0414: Полю "InventoryManager.Loaded" присвоено значение, но оно ни разу не использовано.
+[05:04:00.695] [.NET TP Worker/WARN] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModNetwork/Network.cs(50,24): warning CS0414: Полю "Network.freezeTimer" присвоено значение, но оно ни разу не использовано.
+[05:04:00.695] [.NET TP Worker/WARN] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModNetwork/Network.cs(49,24): warning CS0414: Полю "Network.authMessageTimer" присвоено значение, но оно ни разу не использовано.
+[05:04:00.695] [.NET TP Worker/WARN] [tML]: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsModNetwork/Network.cs(47,22): warning CS0414: Полю "Network.chatColorIndex" присвоено значение, но оно ни разу не использовано.
+[05:04:00.701] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: System.Reflection.Metadata, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a -> System.Reflection.Metadata.resources, Version=8.0.0.0, Culture=ru-RU, PublicKeyToken=b03f5f7f11d50a3a
+[05:04:00.701] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: System.Reflection.Metadata, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a -> System.Reflection.Metadata.resources, Version=8.0.0.0, Culture=ru, PublicKeyToken=b03f5f7f11d50a3a
+[05:04:00.702] [.NET TP Worker/ERROR] [tML]: Компиляция мода HEROsMod.dll провалилась с 27 ошибками и 44 предупреждениями.
+Error: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsMod.cs(1,7): error CS0246: Не удалось найти тип или имя пространства имен "On" (возможно, отсутствует директива using или ссылка на сборку).
+Terraria.ModLoader.Exceptions.BuildException: Компиляция мода HEROsMod.dll провалилась с 27 ошибками и 44 предупреждениями.
+Error: /home/subfear/.local/share/Terraria/tModLoader/ModSources/HEROsMod/HEROsMod.cs(1,7): error CS0246: Не удалось найти тип или имя пространства имен "On" (возможно, отсутствует директива using или ссылка на сборку).
+   at Terraria.ModLoader.Core.ModCompile.CompileMod(BuildingMod mod, Byte[]& code, Byte[]& pdb) in tModLoader\Terraria\ModLoader\Core\ModCompile.cs:line 484
+   at Terraria.ModLoader.Core.ModCompile.BuildMod(BuildingMod mod, Byte[]& code, Byte[]& pdb) in tModLoader\Terraria\ModLoader\Core\ModCompile.cs:line 413
+   at Terraria.ModLoader.Core.ModCompile.Build(BuildingMod mod) in tModLoader\Terraria\ModLoader\Core\ModCompile.cs:line 251
+   at Terraria.ModLoader.Core.ModCompile.Build(String modFolder) in tModLoader\Terraria\ModLoader\Core\ModCompile.cs:line 225
+   at Terraria.ModLoader.UI.UIBuildMod.<>c__DisplayClass5_0.<Build>b__0(ModCompile mc) in tModLoader\Terraria\ModLoader\UI\UIBuildMod.cs:line 34
+   at Terraria.ModLoader.UI.UIBuildMod.BuildMod(Action`1 buildAction, Boolean reload) in tModLoader\Terraria\ModLoader\UI\UIBuildMod.cs:line 75
+[05:04:51.916] [Main Thread/INFO] [tML]: tModLoader RAM usage has increased: 1,0 GB
+[05:05:07.414] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a -> System.Net.Sockets.resources, Version=8.0.0.0, Culture=ru-RU, PublicKeyToken=b03f5f7f11d50a3a
+[05:05:07.414] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a -> System.Net.Sockets.resources, Version=8.0.0.0, Culture=ru, PublicKeyToken=b03f5f7f11d50a3a
