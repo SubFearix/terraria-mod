@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Terraria;
 using Terraria.Audio;
+using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -158,7 +159,7 @@ namespace HEROsMod.HEROsModServices
 				Item item2 = player.GetItem(player.whoAmI, item, GetItemSettings.GetItemInDropItemCheck);
 				if (item2.stack > 0)
 				{
-					int num = Item.NewItem(player.GetItemSource_Misc(ItemSourceID.PlayerDropItemCheck), (int)player.position.X, (int)player.position.Y, player.width, player.height, item2.type, item2.stack, false, (int)item.prefix, true, false);
+					int num = Item.NewItem(new EntitySource_DebugCommand("HerosMod"), (int)player.position.X, (int)player.position.Y, player.width, player.height, item2.type, item2.stack, false, (int)item.prefix, true, false);
 					Main.item[num].newAndShiny = false;
 					if (Main.netMode == 1)
 					{
@@ -244,9 +245,7 @@ namespace HEROsMod.HEROsModServices
 		{
 			UILabel label = (UILabel)sender;
 			Item item = (Item)label.Tag;
-			Item reforgeItem = new Item();
-			reforgeItem.netDefaults(itemSlot.item.netID);
-			reforgeItem = reforgeItem.CloneWithModdedDataFrom(itemSlot.item);
+			Item reforgeItem = itemSlot.item.Clone();
 			reforgeItem.Prefix(item.prefix);
 			itemSlot.item = reforgeItem.Clone();
 			SoundEngine.PlaySound(SoundID.Item37);

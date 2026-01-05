@@ -128,9 +128,10 @@ namespace HEROsMod.HEROsModServices
 					Player.tileRangeX = int.MaxValue / 32 - 20;
 					Player.tileRangeY = int.MaxValue / 32 - 20;
 
-					if (Main.SmartCursorWanted) // Check out SmartCursorIsUsed as well.
+					if (Main.SmartCursorWanted_Mouse || Main.SmartCursorWanted_GamePad) // Check if smart cursor is wanted
 					{
-						Main.SmartCursorWanted = false;
+						Main.SmartCursorWanted_Mouse = false;
+						Main.SmartCursorWanted_GamePad = false;
 						Main.NewText(HEROsMod.HeroText("SmartCursorAutomaticallyDisabledInfinteReachMod"));
 					}
 				}

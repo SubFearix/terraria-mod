@@ -554,8 +554,8 @@ namespace HEROsMod.HEROsModNetwork
 		{
 			if (Network.Players[playerNumber].Group.HasPermission("ChangeTimeWeather"))
 			{
-				Main.fastForwardTime = true;
 				Main.sundialCooldown = 0;
+				Main.SkipToTime(0, true);
 				NetMessage.SendData(7, -1, -1, null, 0, 0f, 0f, 0f, 0, 0, 0);
 				Network.SendTextToAllPlayers(string.Format(HEROsMod.HeroText("ForcedEnchangedSundialBy"), Main.player[playerNumber].name));
 			}
