@@ -10,7 +10,6 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Reflection;
 using Terraria;
 using Terraria.Chat;
 using Terraria.GameContent;
@@ -27,7 +26,6 @@ namespace HEROsMod
 	internal class HEROsMod : Mod
 	{
 		public static HEROsMod instance;
-		internal static Dictionary<string, ModTranslation> translations; // reference to private field.
 		internal List<UIKit.UIComponents.ModCategory> modCategories;
 		internal Dictionary<string, Action<bool>> crossModGroupUpdated = new Dictionary<string, Action<bool>>();
 
@@ -36,10 +34,6 @@ namespace HEROsMod
 			try
 			{
 				instance = this;
-
-				FieldInfo translationsField = typeof(LocalizationLoader).GetField("translations", BindingFlags.Static | BindingFlags.NonPublic);
-				translations = (Dictionary<string, ModTranslation>)translationsField.GetValue(null);
-				//LoadTranslations();
 
 				modCategories = new List<UIKit.UIComponents.ModCategory>();
 
@@ -74,9 +68,7 @@ namespace HEROsMod
 
 		internal static string HeroText(string key)
 		{
-			return translations[$"Mods.HEROsMod.{key}"].GetTranslation(Language.ActiveCulture);
-			// This isn't good until after load....
-			// return Language.GetTextValue($"Mods.HEROsMod.{category}.{key}");
+			return Language.GetTextValue($"Mods.HEROsMod.{key}");
 		}
 
 		// Clear EVERYthing, mod is unloaded.
@@ -129,7 +121,6 @@ namespace HEROsMod
 			TimeWeatherControlHotbar.Unload();
 			ModUtils.previousInventoryItems = null;
 			modCategories = null;
-			translations = null;
 			instance = null;
 			NetTextModule.DeserializeAsServer -= NetTextModule_DeserializeAsServer;
 		}
