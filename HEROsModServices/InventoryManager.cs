@@ -5,7 +5,6 @@ using System;
 using Terraria;
 using Terraria.Audio;
 using Terraria.GameContent;
-using Terraria.GameContent.UI;
 using Terraria.ID;
 using Terraria.UI;
 
@@ -89,7 +88,15 @@ namespace HEROsMod.HEROsModServices
 						Player player = Main.player[Main.myPlayer];
 						if (player.chest != -1)
 						{
-							ChestUI.QuickStack(ContainerTransferContext.FromUnknown(player), false);
+							// Quick stack to the currently open chest
+							for (int i = 49; i >= 10; i--)
+							{
+								if (player.inventory[i].type > ItemID.None && !player.inventory[i].favorited)
+								{
+									player.inventory[i] = Chest.PutItemInNearbyChest(player.inventory[i], player.Center);
+								}
+							}
+							Recipe.FindRecipes();
 						}
 						else
 						{
