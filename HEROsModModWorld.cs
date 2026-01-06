@@ -35,5 +35,11 @@ namespace HEROsMod
 				HEROsModNetwork.DatabaseController.SaveSetting();
 			}
 		}
+
+		public override void LoadWorldData(TagCompound tag)
+		{
+			// Required to be overridden alongside SaveWorldData in tModLoader 1.4
+			// Actual world data loading is handled in OnWorldLoad via DatabaseController.InitializeWorld()
+		}
 	}
 }
